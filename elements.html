@@ -1,880 +1,311 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="zxx">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Gym trainer | Template </title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<title>X Gym - Fitness HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="X Gym Fitness HTML Template">
+	<meta name="keywords" content="fitness, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-	<!-- CSS here -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/slicknav.css">
-	<link rel="stylesheet" href="assets/css/animate.min.css">
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="assets/css/themify-icons.css">
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
-	<!--? Preloader Start -->
-	<div id="preloader-active">
-		<div class="preloader d-flex align-items-center justify-content-center">
-			<div class="preloader-inner position-relative">
-				<div class="preloader-circle"></div>
-				<div class="preloader-img pere-text">
-					<img src="assets/img/logo/loder.png" alt="">
-				</div>
-			</div>
-		</div>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
 	</div>
-	<!-- Preloader Start -->
-	<header>
-		<!-- Header Start -->
-		<div class="header-area header-transparent">
-			<div class="main-header header-sticky">
-				<div class="container-fluid">
-					<div class="menu-wrapper d-flex align-items-center justify-content-between">
-						<!-- Logo -->
-						<div class="logo">
-							<a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-						</div>
-						<!-- Main-menu -->
-						<div class="main-menu f-right d-none d-lg-block">
-							<nav>
-								<ul id="navigation">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="courses.html">Courses</a></li>
-									<li><a href="pricing.html">Pricing</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a>
-										<ul class="submenu">
-											<li><a href="blog.html">Blog</a></li>
-											<li><a href="blog_details.html">Blog Details</a></li>
-											<li><a href="elements.html">Elements</a></li>
-										</ul>
-									</li>
-									<li><a href="contact.html">Contact</a></li>
-								</ul>
-							</nav>
-						</div>          
-						<!-- Header-btn -->
-						<div class="header-btns d-none d-lg-block f-right">
-							<a href="contact.html" class="btn">Contact me</a>
-						</div>
-						<!-- Mobile Menu -->
-						<div class="col-12">
-							<div class="mobile_menu d-block d-lg-none"></div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<a href="index.html" class="site-logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<ul class="main-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="blog.html">News</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li class="header-right">
+				<div class="hr-box">
+					<img src="img/location-icon.png" alt="">
+					<h6>1525  Amazing Lane, Los Angeles, CA</h6>
+				</div>
+			</li>
+		</ul>
+	</header>
+	<div class="clearfix"></div>
+	<!-- Header section end -->
+
+	<!-- Page top section -->
+	<section class="page-top-section set-bg" data-setbg="img/header-bg/5.jpg">
+		<div class="container">
+			<h2>Elements</h2>
+		</div>
+	</section>
+	<!-- Page top section end -->
+
+	<!-- Elements section -->
+	<section class="elements-section">
+		<div class="container">
+			<div class="element">
+				<h2 class="el-title">Buttons</h2>
+				<button class="site-btn mr-3 mb-3">Send Message</button>
+				<button class="site-btn sb-dark mr-3 mb-3">Send Message</button>
+				<button class="site-btn sb-line">Send Message</button>
+			</div>
+			<div class="element">
+				<h2 class="el-title">Accordions & Tabs</h2>
+				<div class="row">
+					<div class="col-lg-6">
+						<!-- Accordions -->
+						<div id="accordion" class="accordion-area">
+							<div class="panel">
+								<div class="panel-header" id="headingOne">
+									<button class="panel-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Eget dolor vitae eros feugiat tristique id vitae massa</button>
+								</div>
+								<div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="panel-body">
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod. Praesent feugiat lorem euismod dictum imperdiet. </p>
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-header" id="headingTwo">
+									<button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"> Donec eget dolor vitae eros feugiat tristique id vitae</button>
+								</div>
+								<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+									<div class="panel-body">
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod. Praesent feugiat lorem euismod dictum imperdiet. </p>
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-header active" id="headingThree">
+									<button class="panel-link active" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"> Donec eget dolor vitae eros feugiat tristique</button>
+								</div>
+								<div id="collapse3" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+									<div class="panel-body">
+										<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. </p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Header End -->
-	</header>
-	<main>
-		<!--? Hero Start -->
-		<div class="slider-area2">
-			<div class="slider-height2 d-flex align-items-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-12">
-							<div class="hero-cap hero-cap2 pt-70">
-								<h2>Elements</h2>
+					<div class="col-lg-6">
+						<!-- Tabs -->
+						<div class="tab-element">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="1-tab" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Eget dolor vitae </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="2-tab" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Donec eget dolor </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="3-tab" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Vitae eros </a>
+								</li>
+							</ul>
+							<div class="tab-content" id="myTabContent">
+								<!-- single tab content -->
+								<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+									<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. 1</p>
+								</div>
+								<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+									<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. 2</p>
+								</div>
+								<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+									<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. 3</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Hero End -->
-		<!--? Start Sample Area -->
-		<section class="sample-text-area">
-			<div class="container box_1170">
-				<h3 class="text-heading">Text Sample</h3>
-				<p class="sample-text">
-					Every avid independent filmmaker has <b>Bold</b> about making that <i>Italic</i> interest documentary,
-					or short
-					film to show off their creative prowess. Many have great ideas and want to “wow”
-					the<sup>Superscript</sup> scene,
-					or video renters with their big project. But once you have the<sub>Subscript</sub> “in the can” (no easy
-					feat), how
-					do you move from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked
-					hand-written title
-					inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC
-					barcodes
-					and polywrap sitting on your doorstep? You need to create eye-popping artwork and have your project
-					replicated.
-					Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is
-					certainly a
-					helpful option to ensure a professional end result, but to help with your DVD replication project, here
-					are 4 easy
-					steps to follow for good DVD replication results:
-					
-				</p>
+			<div class="element">
+				<h2 class="el-title">Loaders</h2>
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="circle-progress" data-cptitle="Happy Clients" data-cpid="id-1" data-cpvalue="50" data-cpcolor="#fcff18"></div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="circle-progress" data-cptitle="Fatt Lost" data-cpid="id-2" data-cpvalue="75" data-cpcolor="#fcff18"></div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="circle-progress" data-cptitle="Work" data-cpid="id-3" data-cpvalue="100" data-cpcolor="#fcff18"></div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="circle-progress" data-cptitle="Energy" data-cpid="id-4" data-cpvalue="25" data-cpcolor="#fcff18"></div>
+					</div>
+				</div>
 			</div>
-		</section>
-		<!-- End Sample Area -->
-		<!--? Start Button -->
-		<section class="button-area">
-			<div class="container box_1170 border-top-generic">
-				<h3 class="text-heading">Sample Buttons</h3>
-				<div class="button-group-area">
-					<a href="#" class="genric-btn default">Default</a>
-					<a href="#" class="genric-btn primary">Primary</a>
-					<a href="#" class="genric-btn success">Success</a>
-					<a href="#" class="genric-btn info">Info</a>
-					<a href="#" class="genric-btn warning">Warning</a>
-					<a href="#" class="genric-btn danger">Danger</a>
-					<a href="#" class="genric-btn link">Link</a>
-					<a href="#" class="genric-btn disable">Disable</a>
+			<div class="element">
+				<h2 class="el-title">Milestones</h2>
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="milestone">
+							<h2>1374</h2>
+							<p>Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="milestone">
+							<h2>356</h2>
+							<p>Strong Bodies</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="milestone">
+							<h2>57k</h2>
+							<p>IG Followers</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="milestone">
+							<h2>24/7</h2>
+							<p>Working Hours</p>
+						</div>
+					</div>
 				</div>
-				<div class="button-group-area mt-10">
-					<a href="#" class="genric-btn default-border">Default</a>
-					<a href="#" class="genric-btn primary-border">Primary</a>
-					<a href="#" class="genric-btn success-border">Success</a>
-					<a href="#" class="genric-btn info-border">Info</a>
-					<a href="#" class="genric-btn warning-border">Warning</a>
-					<a href="#" class="genric-btn danger-border">Danger</a>
-					<a href="#" class="genric-btn link-border">Link</a>
-					<a href="#" class="genric-btn disable">Disable</a>
+			</div>
+			<div class="element">
+				<h2 class="el-title">Icon Boxes</h2>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="icon-box-item">
+							<div class="ib-icon">
+								<i class="flaticon-004-dumbbell"></i>
+							</div>
+							<h4>Intense Workouts</h4>
+							<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="icon-box-item">
+							<div class="ib-icon">
+								<i class="flaticon-031-app-1"></i>
+							</div>
+							<h4>Intense Workouts</h4>
+							<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="icon-box-item">
+							<div class="ib-icon">
+								<i class="flaticon-010-podium"></i>
+							</div>
+							<h4>Intense Workouts</h4>
+							<p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+						</div>
+					</div>
 				</div>
-				<div class="button-group-area mt-40">
-					<a href="#" class="genric-btn default radius">Default</a>
-					<a href="#" class="genric-btn primary radius">Primary</a>
-					<a href="#" class="genric-btn success radius">Success</a>
-					<a href="#" class="genric-btn info radius">Info</a>
-					<a href="#" class="genric-btn warning radius">Warning</a>
-					<a href="#" class="genric-btn danger radius">Danger</a>
-					<a href="#" class="genric-btn link radius">Link</a>
-					<a href="#" class="genric-btn disable radius">Disable</a>
-				</div>
-				<div class="button-group-area mt-10">
-					<a href="#" class="genric-btn default-border radius">Default</a>
-					<a href="#" class="genric-btn primary-border radius">Primary</a>
-					<a href="#" class="genric-btn success-border radius">Success</a>
-					<a href="#" class="genric-btn info-border radius">Info</a>
-					<a href="#" class="genric-btn warning-border radius">Warning</a>
-					<a href="#" class="genric-btn danger-border radius">Danger</a>
-					<a href="#" class="genric-btn link-border radius">Link</a>
-					<a href="#" class="genric-btn disable radius">Disable</a>
-				</div>
-				<div class="button-group-area mt-40">
-					<a href="#" class="genric-btn default circle">Default</a>
-					<a href="#" class="genric-btn primary circle">Primary</a>
-					<a href="#" class="genric-btn success circle">Success</a>
-					<a href="#" class="genric-btn info circle">Info</a>
-					<a href="#" class="genric-btn warning circle">Warning</a>
-					<a href="#" class="genric-btn danger circle">Danger</a>
-					<a href="#" class="genric-btn link circle">Link</a>
-					<a href="#" class="genric-btn disable circle">Disable</a>
-				</div>
-				<div class="button-group-area mt-10">
-					<a href="#" class="genric-btn default-border circle">Default</a>
-					<a href="#" class="genric-btn primary-border circle">Primary</a>
-					<a href="#" class="genric-btn success-border circle">Success</a>
-					<a href="#" class="genric-btn info-border circle">Info</a>
-					<a href="#" class="genric-btn warning-border circle">Warning</a>
-					<a href="#" class="genric-btn danger-border circle">Danger</a>
-					<a href="#" class="genric-btn link-border circle">Link</a>
-					<a href="#" class="genric-btn disable circle">Disable</a>
-				</div>
-				<div class="button-group-area mt-40">
-					<a href="#" class="genric-btn default circle arrow">Default<span class="lnr lnr-arrow-right"></span></a>
-					<a href="#" class="genric-btn primary circle arrow">Primary<span class="lnr lnr-arrow-right"></span></a>
-					<a href="#" class="genric-btn success circle arrow">Success<span class="lnr lnr-arrow-right"></span></a>
-					<a href="#" class="genric-btn info circle arrow">Info<span class="lnr lnr-arrow-right"></span></a>
-					<a href="#" class="genric-btn warning circle arrow">Warning<span class="lnr lnr-arrow-right"></span></a>
-					<a href="#" class="genric-btn danger circle arrow">Danger<span class="lnr lnr-arrow-right"></span></a>
-				</div>
-				<div class="button-group-area mt-10">
-					<a href="#" class="genric-btn default-border circle arrow">Default<span
-						class="lnr lnr-arrow-right"></span></a>
-						<a href="#" class="genric-btn primary-border circle arrow">Primary<span
-							class="lnr lnr-arrow-right"></span></a>
-							<a href="#" class="genric-btn success-border circle arrow">Success<span
-								class="lnr lnr-arrow-right"></span></a>
-								<a href="#" class="genric-btn info-border circle arrow">Info<span
-									class="lnr lnr-arrow-right"></span></a>
-									<a href="#" class="genric-btn warning-border circle arrow">Warning<span
-										class="lnr lnr-arrow-right"></span></a>
-										<a href="#" class="genric-btn danger-border circle arrow">Danger<span
-											class="lnr lnr-arrow-right"></span></a>
-										</div>
-										<div class="button-group-area mt-40">
-											<a href="#" class="genric-btn primary e-large">Extra Large</a>
-											<a href="#" class="genric-btn success large">Large</a>
-											<a href="#" class="genric-btn primary">Default</a>
-											<a href="#" class="genric-btn success medium">Medium</a>
-											<a href="#" class="genric-btn primary small">Small</a>
-										</div>
-										<div class="button-group-area mt-10">
-											<a href="#" class="genric-btn primary-border e-large">Extra Large</a>
-											<a href="#" class="genric-btn success-border large">Large</a>
-											<a href="#" class="genric-btn primary-border">Default</a>
-											<a href="#" class="genric-btn success-border medium">Medium</a>
-											<a href="#" class="genric-btn primary-border small">Small</a>
-										</div>
-									</div>
-								</section>
-								<!-- End Button -->
-								<!--? Start Align Area -->
-								<div class="whole-wrap">
-									<div class="container box_1170">
-										<div class="section-top-border">
-											<h3 class="mb-30">Left Aligned</h3>
-											<div class="row">
-												<div class="col-md-3">
-													<img src="assets/img/elements/d.jpg" alt="" class="img-fluid">
-												</div>
-												<div class="col-md-9 mt-sm-20">
-													<p>Recently, the US Federal government banned online casinos from operating in America by making
-														it illegal to
-														transfer money to them through any US bank or payment system. As a result of this law, most
-														of the popular
-														online casino networks such as Party Gaming and PlayTech left the United States. Overnight,
-														online casino
-														players found themselves being chased by the Federal government. But, after a fortnight, the
-														online casino
-														industry came up with a solution and new online casinos started taking root. These began to
-														operate under a
-														different business umbrella, and by doing that, rendered the transfer of money to and from
-														them legal. A major
-														part of this was enlisting electronic banking systems that would accept this new
-														clarification and start doing
-														business with me. Listed in this article are the electronic banking systems that accept
-														players from the United
-													States that wish to play in online casinos.</p>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border text-right">
-											<h3 class="mb-30">Right Aligned</h3>
-											<div class="row">
-												<div class="col-md-9">
-													<p class="text-right">Over time, even the most sophisticated, memory packed computer can begin
-														to run slow if we
-														don’t do something to prevent it. The reason why has less to do with how computers are made
-														and how they age and
-														more to do with the way we use them. You see, all of the daily tasks that we do on our PC
-														from running programs
-														to downloading and deleting software can make our computer sluggish. To keep this from
-														happening, you need to
-														understand the reasons why your PC is getting slower and do something to keep your PC
-														running at its best. You
-													can do this through regular maintenance and PC performance optimization programs</p>
-													<p class="text-right">Before we discuss all of the things that could be affecting your PC’s
-														performance, let’s
-													talk a little about what symptoms</p>
-												</div>
-												<div class="col-md-3">
-													<img src="assets/img/elements/d.jpg" alt="" class="img-fluid">
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<h3 class="mb-30">Definition</h3>
-											<div class="row">
-												<div class="col-md-4">
-													<div class="single-defination">
-														<h4 class="mb-20">Definition 01</h4>
-														<p>Recently, the US Federal government banned online casinos from operating in America by
-															making it illegal to
-															transfer money to them through any US bank or payment system. As a result of this law,
-															most of the popular
-														online casino networks</p>
-													</div>
-												</div>
-												<div class="col-md-4">
-													<div class="single-defination">
-														<h4 class="mb-20">Definition 02</h4>
-														<p>Recently, the US Federal government banned online casinos from operating in America by
-															making it illegal to
-															transfer money to them through any US bank or payment system. As a result of this law,
-															most of the popular
-														online casino networks</p>
-													</div>
-												</div>
-												<div class="col-md-4">
-													<div class="single-defination">
-														<h4 class="mb-20">Definition 03</h4>
-														<p>Recently, the US Federal government banned online casinos from operating in America by
-															making it illegal to
-															transfer money to them through any US bank or payment system. As a result of this law,
-															most of the popular
-														online casino networks</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<h3 class="mb-30">Block Quotes</h3>
-											<div class="row">
-												<div class="col-lg-12">
-													<blockquote class="generic-blockquote">
-														“Recently, the US Federal government banned online casinos from operating in America by
-														making it illegal to
-														transfer money to them through any US bank or payment system. As a result of this law, most
-														of the popular
-														online casino networks such as Party Gaming and PlayTech left the United States. Overnight,
-														online casino
-														players found themselves being chased by the Federal government. But, after a fortnight, the
-														online casino
-														industry came up with a solution and new online casinos started taking root. These began to
-														operate under a
-														different business umbrella, and by doing that, rendered the transfer of money to and from
-														them legal. A major
-														part of this was enlisting electronic banking systems that would accept this new
-														clarification and start doing
-														business with me. Listed in this article are the electronic banking”
-													</blockquote>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<h3 class="mb-30">Table</h3>
-											<div class="progress-table-wrap">
-												<div class="progress-table">
-													<div class="table-head">
-														<div class="serial">#</div>
-														<div class="country">Countries</div>
-														<div class="visit">Visits</div>
-														<div class="percentage">Percentages</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">01</div>
-														<div class="country"> <img src="assets/img/elements/f1.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-1" role="progressbar" style="width: 80%"
-																aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">02</div>
-														<div class="country"> <img src="assets/img/elements/f2.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-2" role="progressbar" style="width: 30%"
-																aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">03</div>
-														<div class="country"> <img src="assets/img/elements/f3.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-3" role="progressbar" style="width: 55%"
-																aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">04</div>
-														<div class="country"> <img src="assets/img/elements/f4.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-4" role="progressbar" style="width: 60%"
-																aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">05</div>
-														<div class="country"> <img src="assets/img/elements/f5.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-5" role="progressbar" style="width: 40%"
-																aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">06</div>
-														<div class="country"> <img src="assets/img/elements/f6.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-6" role="progressbar" style="width: 70%"
-																aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">07</div>
-														<div class="country"> <img src="assets/img/elements/f7.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-7" role="progressbar" style="width: 30%"
-																aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-													<div class="table-row">
-														<div class="serial">08</div>
-														<div class="country"> <img src="assets/img/elements/f8.jpg" alt="flag">Canada</div>
-														<div class="visit">645032</div>
-														<div class="percentage">
-															<div class="progress">
-																<div class="progress-bar color-8" role="progressbar" style="width: 60%"
-																aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<h3>Image Gallery</h3>
-											<div class="row gallery-item">
-												<div class="col-md-4">
-													<a href="assets/img/elements/g1.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g1.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-4">
-													<a href="assets/img/elements/g2.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g2.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-4">
-													<a href="assets/img/elements/g3.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g3.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-6">
-													<a href="assets/img/elements/g4.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g4.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-6">
-													<a href="assets/img/elements/g5.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g5.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-4">
-													<a href="assets/img/elements/g6.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g6.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-4">
-													<a href="assets/img/elements/g7.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g7.jpg);"></div>
-													</a>
-												</div>
-												<div class="col-md-4">
-													<a href="assets/img/elements/g8.jpg" class="img-pop-up">
-														<div class="single-gallery-image" style="background: url(assets/img/elements/g8.jpg);"></div>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<div class="row">
-												<div class="col-md-4">
-													<h3 class="mb-20">Image Gallery</h3>
-													<div class="typography">
-														<h1>This is header 01</h1>
-														<h2>This is header 02</h2>
-														<h3>This is header 03</h3>
-														<h4>This is header 04</h4>
-														<h5>This is header 01</h5>
-														<h6>This is header 01</h6>
-													</div>
-												</div>
-												<div class="col-md-4 mt-sm-30">
-													<h3 class="mb-20">Unordered List</h3>
-													<div class="">
-														<ul class="unordered-list">
-															<li>Fta Keys</li>
-															<li>For Women Only Your Computer Usage</li>
-															<li>Facts Why Inkjet Printing Is Very Appealing
-																<ul>
-																	<li>Addiction When Gambling Becomes
-																		<ul>
-																			<li>Protective Preventative Maintenance</li>
-																		</ul>
-																	</li>
-																</ul>
-															</li>
-															<li>Dealing With Technical Support 10 Useful Tips</li>
-															<li>Make Myspace Your Best Designed Space</li>
-															<li>Cleaning And Organizing Your Computer</li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-md-4 mt-sm-30">
-													<h3 class="mb-20">Ordered List</h3>
-													<div class="">
-														<ol class="ordered-list">
-															<li><span>Fta Keys</span></li>
-															<li><span>For Women Only Your Computer Usage</span></li>
-															<li><span>Facts Why Inkjet Printing Is Very Appealing</span>
-																<ol class="ordered-list-alpha">
-																	<li><span>Addiction When Gambling Becomes</span>
-																		<ol class="ordered-list-roman">
-																			<li><span>Protective Preventative Maintenance</span></li>
-																		</ol>
-																	</li>
-																</ol>
-															</li>
-															<li><span>Dealing With Technical Support 10 Useful Tips</span></li>
-															<li><span>Make Myspace Your Best Designed Space</span></li>
-															<li><span>Cleaning And Organizing Your Computer</span></li>
-														</ol>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="section-top-border">
-											<div class="row">
-												<div class="col-lg-8 col-md-8">
-													<h3 class="mb-30">Form Element</h3>
-													<form action="#">
-														<div class="mt-10">
-															<input type="text" name="first_name" placeholder="First Name"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
-															class="single-input">
-														</div>
-														<div class="mt-10">
-															<input type="text" name="last_name" placeholder="Last Name"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
-															class="single-input">
-														</div>
-														<div class="mt-10">
-															<input type="text" name="last_name" placeholder="Last Name"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
-															class="single-input">
-														</div>
-														<div class="mt-10">
-															<input type="email" name="EMAIL" placeholder="Email address"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required
-															class="single-input">
-														</div>
-														<div class="input-group-icon mt-10">
-															<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
-															<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''"
-															onblur="this.placeholder = 'Address'" required class="single-input">
-														</div>
-														<div class="input-group-icon mt-10">
-															<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
-															<div class="form-select" id="default-select"">
-																<select>
-																	<option value=" 1">City</option>
-																	<option value="1">Dhaka</option>
-																	<option value="1">Dilli</option>
-																	<option value="1">Newyork</option>
-																	<option value="1">Islamabad</option>
-																</select>
-															</div>
-														</div>
-														<div class="input-group-icon mt-10">
-															<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
-															<div class="form-select" id="default-select"">
-																<select>
-																	<option value=" 1">Country</option>
-																	<option value="1">Bangladesh</option>
-																	<option value="1">India</option>
-																	<option value="1">England</option>
-																	<option value="1">Srilanka</option>
-																</select>
-															</div>
-														</div>
-														
-														<div class="mt-10">
-															<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''"
-															onblur="this.placeholder = 'Message'" required></textarea>
-														</div>
-														<div class="mt-10">
-															<input type="text" name="first_name" placeholder="Primary color"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'" required
-															class="single-input-primary">
-														</div>
-														<div class="mt-10">
-															<input type="text" name="first_name" placeholder="Accent color"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'" required
-															class="single-input-accent">
-														</div>
-														<div class="mt-10">
-															<input type="text" name="first_name" placeholder="Secondary color"
-															onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'"
-															required class="single-input-secondary">
-														</div>
-													</form>
-												</div>
-												<div class="col-lg-3 col-md-4 mt-sm-30">
-													<div class="single-element-widget">
-														<h3 class="mb-30">Switches</h3>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>01. Sample Switch</p>
-															<div class="primary-switch">
-																<input type="checkbox" id="default-switch">
-																<label for="default-switch"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>02. Primary Color Switch</p>
-															<div class="primary-switch">
-																<input type="checkbox" id="primary-switch" checked>
-																<label for="primary-switch"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>03. Confirm Color Switch</p>
-															<div class="confirm-switch">
-																<input type="checkbox" id="confirm-switch" checked>
-																<label for="confirm-switch"></label>
-															</div>
-														</div>
-													</div>
-													<div class="single-element-widget mt-30">
-														<h3 class="mb-30">Selectboxes</h3>
-														<div class="default-select" id="default-select"">
-															<select>
-																<option value=" 1">English</option>
-																<option value="1">Spanish</option>
-																<option value="1">Arabic</option>
-																<option value="1">Portuguise</option>
-																<option value="1">Bengali</option>
-															</select>
-														</div>
-													</div>
-													<div class="single-element-widget mt-30">
-														<h3 class="mb-30">Checkboxes</h3>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>01. Sample Checkbox</p>
-															<div class="primary-checkbox">
-																<input type="checkbox" id="default-checkbox">
-																<label for="default-checkbox"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>02. Primary Color Checkbox</p>
-															<div class="primary-checkbox">
-																<input type="checkbox" id="primary-checkbox" checked>
-																<label for="primary-checkbox"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>03. Confirm Color Checkbox</p>
-															<div class="confirm-checkbox">
-																<input type="checkbox" id="confirm-checkbox">
-																<label for="confirm-checkbox"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>04. Disabled Checkbox</p>
-															<div class="disabled-checkbox">
-																<input type="checkbox" id="disabled-checkbox" disabled>
-																<label for="disabled-checkbox"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>05. Disabled Checkbox active</p>
-															<div class="disabled-checkbox">
-																<input type="checkbox" id="disabled-checkbox-active" checked disabled>
-																<label for="disabled-checkbox-active"></label>
-															</div>
-														</div>
-													</div>
-													<div class="single-element-widget mt-30">
-														<h3 class="mb-30">Radios</h3>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>01. Sample radio</p>
-															<div class="primary-radio">
-																<input type="checkbox" id="default-radio">
-																<label for="default-radio"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>02. Primary Color radio</p>
-															<div class="primary-radio">
-																<input type="checkbox" id="primary-radio" checked>
-																<label for="primary-radio"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>03. Confirm Color radio</p>
-															<div class="confirm-radio">
-																<input type="checkbox" id="confirm-radio" checked>
-																<label for="confirm-radio"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>04. Disabled radio</p>
-															<div class="disabled-radio">
-																<input type="checkbox" id="disabled-radio" disabled>
-																<label for="disabled-radio"></label>
-															</div>
-														</div>
-														<div class="switch-wrap d-flex justify-content-between">
-															<p>05. Disabled radio active</p>
-															<div class="disabled-radio">
-																<input type="checkbox" id="disabled-radio-active" checked disabled>
-																<label for="disabled-radio-active"></label>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- End Align Area -->
-								<!-- ? services-area -->
-								<section class="services-area">
-									<div class="container">
-										<div class="row justify-content-between">
-											<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-												<div class="single-services mb-40">
-													<div class="features-icon">
-														<img src="assets/img/icon/icon1.svg" alt="">
-													</div>
-													<div class="features-caption">
-														<h3>Location</h3>
-														<p>You’ll look at graphs and charts in Task One, how to approach </p>
-													</div>
-												</div>
-											</div>
-											<div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-												<div class="single-services mb-40">
-													<div class="features-icon">
-														<img src="assets/img/icon/icon2.svg" alt="">
-													</div>
-													<div class="features-caption">
-														<h3>Phone</h3>
-														<p>(90) 277 278 2566</p>
-														<p>  (78) 267 256 2578</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-												<div class="single-services mb-40">
-													<div class="features-icon">
-														<img src="assets/img/icon/icon3.svg" alt="">
-													</div>
-													<div class="features-caption">
-														<h3>Email</h3>
-														<p>jacson767@gmail.com</p>
-														<p>contact56@zacsion.com</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</section>
-							</main>
-							<footer>
-								<!--? Footer Start-->
-								<div class="footer-area black-bg">
-									<div class="container">
-										<div class="footer-top footer-padding">
-											<!-- Footer Menu -->
-											<div class="row">
-												<div class="col-xl-12">
-													<div class="single-footer-caption mb-50 text-center">
-														<!-- logo -->
-														<div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-															<a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-														</div>
-														<!-- Menu -->
-														<!-- Header Start -->
-														<div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-															<div class="main-header main-header2">
-																<div class="menu-wrapper menu-wrapper2">
-																	<!-- Main-menu -->
-																	<div class="main-menu main-menu2 text-center">
-																		<nav>
-																			<ul>
-																				<li><a href="index.html">Home</a></li>
-																				<li><a href="about.html">About</a></li>
-																				<li><a href="courses.html">Courses</a></li>
-																				<li><a href="pricing.html">Pricing</a></li>
-																				<li><a href="gallery.html">Gallery</a></li>
-																				<li><a href="contact.html">Contact</a></li>
-																			</ul>
-																		</nav>
-																	</div>   
-																</div>
-															</div>
-														</div>
-														<!-- Header End -->
-														<!-- social -->
-														<div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-															<a href="#"><i class="fab fa-twitter"></i></a>
-															<a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-															<a href="#"><i class="fab fa-pinterest-p"></i></a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Footer Bottom -->
-										<div class="footer-bottom">
-											<div class="row d-flex align-items-center">
-												<div class="col-lg-12">
-													<div class="footer-copy-right text-center">
-														<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-															Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-															<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- Footer End-->
-								</footer>
-								<!-- Scroll Up -->
-								<div id="back-top" >
-									<a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-								</div>
+			</div>
+		</div>
+	</section>
+	<!-- Elements section end -->
 
-								<!-- JS here -->
+	<!-- Footer section -->
+	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<h4>Location</h4>
+						<div class="fw-info-box">
+							<img src="img/icons/1.png" alt="">
+							<div class="fw-info-text">
+								<p>1525  Awesome Lane, Los Angeles, CA</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<h4>Subscriptions</h4>
+						<div class="fw-info-box">
+							<img src="img/icons/2.png" alt="">
+							<div class="fw-info-text">
+								<p>+1 (603)535-4592</p>
+								<p>+1 (603)535-4556</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<h4>E-mail</h4>
+						<div class="fw-info-box">
+							<img src="img/icons/3.png" alt="">
+							<div class="fw-info-text">
+								<p>Contact@xgym.com</p>
+								<p>www.xgym.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<h4>Social Media</h4>
+						<div class="fw-info-box">
+							<img src="img/icons/4.png" alt="">
+							<div class="social-links">
+								<a href="#"><i class="fa fa-pinterest"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 order-2 order-md-1">
+					<div class="copyright"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+				</div>
+				<div class="col-md-6 order-1 order-md-2">
+					<ul class="footer-menu">
+						<li><a href="">Home</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Classes</a></li>
+						<li><a href="">News</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+								
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
 
-								<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-								<!-- Jquery, Popper, Bootstrap -->
-								<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-								<script src="./assets/js/popper.min.js"></script>
-								<script src="./assets/js/bootstrap.min.js"></script>
-								<!-- Jquery Mobile Menu -->
-								<script src="./assets/js/jquery.slicknav.min.js"></script>
-
-								<!-- Jquery Slick , Owl-Carousel Plugins -->
-								<script src="./assets/js/owl.carousel.min.js"></script>
-								<script src="./assets/js/slick.min.js"></script>
-								<!-- One Page, Animated-HeadLin -->
-								<script src="./assets/js/wow.min.js"></script>
-								<script src="./assets/js/animated.headline.js"></script>
-								<script src="./assets/js/jquery.magnific-popup.js"></script>
-								
-								<!-- Nice-select, sticky -->
-								<script src="./assets/js/jquery.nice-select.min.js"></script>
-								<script src="./assets/js/jquery.sticky.js"></script>
-								
-								<!-- contact js -->
-								<script src="./assets/js/contact.js"></script>
-								<script src="./assets/js/jquery.form.js"></script>
-								<script src="./assets/js/jquery.validate.min.js"></script>
-								<script src="./assets/js/mail-script.js"></script>
-								<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-								
-								<!-- Jquery Plugins, main Jquery -->	
-								<script src="./assets/js/plugins.js"></script>
-								<script src="./assets/js/main.js"></script>
-								
-							</body>
-							</html>
+	</body>
+</html>
